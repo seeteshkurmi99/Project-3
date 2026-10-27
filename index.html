@@ -563,6 +563,48 @@
 <button  id="welcomeButton">Click Me</button>
 <script src="script.js"></script>
 
+
+
+ <!--  login page  -->
+
+ <!-- Login / Signup Modal -->
+<div id="authModal" class="auth-modal">
+  <div class="auth-card">
+    <button id="closeAuth" class="close-btn" type="button">
+      &times;
+    </button>
+
+    <h2 id="formTitle">Create Account</h2>
+
+    <div class="auth-tabs">
+      <button id="signupTab" type="button">Sign Up</button>
+      <button id="loginTab" type="button">Login</button>
+    </div>
+
+    <form id="authForm">
+      <input id="authName" type="text"
+        placeholder="Full Name" required>
+
+      <input id="authEmail" type="email"
+        placeholder="Email Address" required>
+
+      <input id="authPassword" type="password"
+        placeholder="Password (minimum 6 characters)"
+        minlength="6" required>
+
+      <button id="submitAuth" type="submit">
+        Create Account
+      </button>
+
+      <p id="authMessage"></p>
+    </form>
+
+    <div id="profileArea" hidden>
+      <p id="welcomeMessage"></p>
+      <button id="logoutBtn" type="button">Logout</button>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
