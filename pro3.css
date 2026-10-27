@@ -742,3 +742,11 @@ font-size: 0.78rem;
   padding:  5px  ;
   border-radius: 5px;
 }
+
+#welcomeButton{
+  border: 2px solid black ;
+  background: #40a0cc;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
